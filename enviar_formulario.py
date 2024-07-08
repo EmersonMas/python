@@ -17,7 +17,7 @@ data = {
 # Arquivos a serem enviados (use os caminhos corretos dos arquivos no repositório)
 files = {
     "file1": ("documento.pdf", open("documento.pdf", "rb"), "application/pdf"),
-    "file2": ("imagem.jpeg", open("imagem.jpeg", "rb"), "image/jpeg")
+    "file2": ("imagem.jpg", open("imagem.jpg", "rb"), "image/jpg")
 }
 
 # Enviando o formulário com os dados e arquivos
