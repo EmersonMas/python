@@ -14,10 +14,10 @@ data = {
     "Descrição": "Descrição detalhada da demanda"
 }
 
-# Arquivos a serem enviados
+# Arquivos a serem enviados (use os caminhos corretos dos arquivos no repositório)
 files = {
-    "file1": ("documento.pdf", open("caminho/para/documento.pdf", "rb"), "application/pdf"),
-    "file2": ("imagem.jpeg", open("caminho/para/imagem.jpeg", "rb"), "image/jpeg")
+    "file1": ("documento.pdf", open("documento.pdf", "rb"), "application/pdf"),
+    "file2": ("imagem.jpeg", open("imagem.jpeg", "rb"), "image/jpeg")
 }
 
 # Enviando o formulário com os dados e arquivos
